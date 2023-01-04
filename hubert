@@ -8,12 +8,11 @@
                  cin >> a;
                  cout << "PODAJ 2 LICZBE: ";
                  cin >> b;
-                 suma = a + b;
+                 suma = a - b;
                  cout << "SUMA TO: " << suma;
              }
              break;
-             
-             
+            
              // USUWANIE
              case '2':
              {
@@ -28,7 +27,6 @@
                  cout << "ROZNICA TO: " << roznica;
              }
              break;
-             
              
              // MNOZENIE
              case '3':
@@ -45,7 +43,6 @@
              }
              break;
              
-             
             // DZIELNIE
              case '4':
              {
@@ -57,6 +54,6 @@
                  cout << "PODAJ 2 LICZBE: ";
                  cin >> b;
                  iloraz = a * b;
-                 cout << "ILORAZ TO: " << iloraz;
+                 cout << "ILORAZ WYNOSi: " << iloraz;
              }
              break;
