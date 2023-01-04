@@ -46,6 +46,17 @@
              break;
              
              
-
-
-              
+            // DZIELNIE
+             case '4':
+             {
+                 int a,b, iloraz;
+                 cout << endl;
+                 cout << "WYBRALES DZIELNIE\n";
+                 cout << "PODAJ 1 LICZBE: ";
+                 cin >> a;
+                 cout << "PODAJ 2 LICZBE: ";
+                 cin >> b;
+                 iloraz = a * b;
+                 cout << "ILORAZ TO: " << iloraz;
+             }
+             break;
