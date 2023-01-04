@@ -1,0 +1,28 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+
+    cout << "WITAJ W KALKULATORZE\n\n"
+         << "WYBIERZ DZIALANIE JAKIE CIE INTERESUJE\n\n"
+
+         << "1. DODAWANIE\n"
+         << "2. ODEJMOWANIE\n"
+         << "3. MNOZENIE\n"
+         << "4. DZIELENIE\n"
+         << endl
+         << "PODAJ ODPOWIEDNIA LICZBE DLA DZIALANIA: " << endl;
+
+         int wybieranie;
+         cin >> wybieranie;
+         
+         switch (wybieranie)
+         {
+         }
+                 
+
+    return 0;
+}
