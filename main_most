@@ -13,6 +13,13 @@ int main()
          << "2. ODEJMOWANIE\n"
          << "3. MNOZENIE\n"
          << "4. DZIELENIE\n"
+         
+         << "5. 2 POTEGA (KWADRAT LICZBY)\n"
+         << "6. PIERWIASTEK 2 STOPNIA Z LICZBY\n"
+         << "7. 3 POTEGA (SZESCIAN LICZBY)\n"
+         << "8. PIERWIASTEK 3 STOPNIA Z LICZBY\n"
+         
+                 
          << endl
          << "PODAJ ODPOWIEDNIA LICZBE DLA DZIALANIA: " << endl;
 
@@ -23,6 +30,11 @@ int main()
          {
          }
                  
+
+
+
+
+
 
     return 0;
 }
