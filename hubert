@@ -1,0 +1,14 @@
+// DODAWANIE
+             case '1':
+             {
+                 int a,b, suma;
+                 cout << endl;
+                 cout << "WYBRALES DODAWANIE\n";
+                 cout << "PODAJ 1 LICZBE: ";
+                 cin >> a;
+                 cout << "PODAJ 2 LICZBE: ";
+                 cin >> b;
+                 suma = a + b;
+                 cout << "SUMA TO: " << suma;
+             }
+             break;
