@@ -1,0 +1,62 @@
+             // DODAWANIE
+             case '1':
+             {
+                 int a,b, suma;
+                 cout << endl;
+                 cout << "WYBRALES DODAWANIE\n";
+                 cout << "PODAJ 1 LICZBE: ";
+                 cin >> a;
+                 cout << "PODAJ 2 LICZBE: ";
+                 cin >> b;
+                 suma = a + b;
+                 cout << "SUMA TO: " << suma;
+             }
+             break;
+             
+             
+             // USUWANIE
+             case '2':
+             {
+                 int a,b, roznica;
+                 cout << endl;
+                     cout << "WYBRALES ODEJMOWANIE\n";
+                 cout << "PODAJ 1 LICZBE: ";
+                 cin >> a;
+                 cout << "PODAJ 2 LICZBE: ";
+                 cin >> b;
+                 roznica = a - b;
+                 cout << "ROZNICA TO: " << roznica;
+             }
+             break;
+             
+             
+             // MNOZENIE
+             case '3':
+             {
+                 int a,b, iloczyn;
+                 cout << endl;
+                 cout << "WYBRALES MNOZENIE\n";
+                 cout << "PODAJ 1 LICZBE: ";
+                 cin >> a;
+                 cout << "PODAJ 2 LICZBE: ";
+                 cin >> b;
+                 iloczyn = a * b;
+                 cout << "ILOCZYN TO: " << iloczyn;
+             }
+             break;
+             
+             
+            // DZIELNIE
+             case '4':
+             {
+                 int a,b, iloraz;
+                 cout << endl;
+                 cout << "WYBRALES DZIELNIE\n";
+                 cout << "PODAJ 1 LICZBE: ";
+                 cin >> a;
+                 cout << "PODAJ 2 LICZBE: ";
+                 cin >> b;
+                 iloraz = a * b;
+                 cout << "ILORAZ TO: " << iloraz;
+             }
+             break;
