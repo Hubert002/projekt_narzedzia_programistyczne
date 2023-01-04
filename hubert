@@ -1,4 +1,4 @@
-// DODAWANIE
+             // DODAWANIE
              case '1':
              {
                  int a,b, suma;
@@ -14,7 +14,7 @@
              break;
              
              
-             / USUWANIE
+             // USUWANIE
              case '2':
              {
                  int a,b, roznica;
@@ -28,3 +28,24 @@
                  cout << "ROZNICA TO: " << roznica;
              }
              break;
+             
+             
+             // MNOZENIE
+             case '3':
+             {
+                 int a,b, iloczyn;
+                 cout << endl;
+                 cout << "WYBRALES MNOZENIE\n";
+                 cout << "PODAJ 1 LICZBE: ";
+                 cin >> a;
+                 cout << "PODAJ 2 LICZBE: ";
+                 cin >> b;
+                 iloczyn = a * b;
+                 cout << "ILOCZYN TO: " << iloczyn;
+             }
+             break;
+             
+             
+
+
+              
