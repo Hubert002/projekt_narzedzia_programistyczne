@@ -24,4 +24,17 @@
                  cout << "COSINUS Z TWOJEJ LICZBY TO: " << cosinus;
              }
              break;
+             // TANGENS
+             case '11':
+             {
+                 double x, tangens, rad;
+                 cout << endl;
+                 cout << "WYBRALES TANGENS\n";
+                 cout << "PODAJ KAT W STOPNIACH: ";
+                 cin >> x;
+                 rad = (x * 3.14) / 180;
+                 tangens = tan(rad);
+                 cout << "TANGENS Z TWOJEJ LICZBY TO: " << tangens;
+             }
+             break;
 
