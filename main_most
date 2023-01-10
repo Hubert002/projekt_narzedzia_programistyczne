@@ -18,6 +18,7 @@ int main()
          << "6. PIERWIASTEK 2 STOPNIA Z LICZBY\n"
          << "7. 3 POTEGA (SZESCIAN LICZBY)\n"
          << "8. PIERWIASTEK 3 STOPNIA Z LICZBY\n"
+         
          << "9. SINUS\n"
          << "10. COSINUS\n"
          << "11. TANGENS\n"
