@@ -1,0 +1,13 @@
+// SINUS
+             case '9':
+             {
+                 double x, sinus, rad;
+                 cout << endl;
+                 cout << "WYBRALES SINUS\n";
+                 cout << "PODAJ KAT W STOPNIACH: ";
+                 cin >> x;
+                 rad = (x * 3.14) / 180;
+                 sinus = sin(rad);
+                 cout << "SINUS Z TWOJEJ LICZBY TO: " << sinus;
+             }
+             break;
