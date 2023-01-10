@@ -11,3 +11,17 @@
                  cout << "SINUS Z TWOJEJ LICZBY TO: " << sinus;
              }
              break;
+             // COSINUS
+             case '10':
+             {
+                 double x, cosinus, rad;
+                 cout << endl;
+                 cout << "WYBRALES COSINUS\n";
+                 cout << "PODAJ KAT W STOPNIACH: ";
+                 cin >> x;
+                 rad = (x * 3.14) / 180;
+                 cosinus = cos(rad);
+                 cout << "COSINUS Z TWOJEJ LICZBY TO: " << cosinus;
+             }
+             break;
+
