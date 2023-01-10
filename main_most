@@ -18,6 +18,11 @@ int main()
          << "6. PIERWIASTEK 2 STOPNIA Z LICZBY\n"
          << "7. 3 POTEGA (SZESCIAN LICZBY)\n"
          << "8. PIERWIASTEK 3 STOPNIA Z LICZBY\n"
+         << "9. SINUS\n"
+         << "10. COSINUS\n"
+         << "11. TANGENS\n"
+         << "12. COTANGENS\n"
+
          
                  
          << endl
@@ -28,6 +33,62 @@ int main()
          
          switch (wybieranie)
          {
+          // SINUS
+             case '9':
+             {
+                 double x, sinus, rad;
+                 cout << endl;
+                 cout << "WYBRALES SINUS\n";
+                 cout << "PODAJ KAT W STOPNIACH: ";
+                 cin >> x;
+                 rad = (x * 3.14) / 180;
+                 sinus = sin(rad);
+                 cout << "SINUS Z TWOJEJ LICZBY TO: " << sinus;
+             }
+             break;
+
+             // COSINUS
+             case '10':
+             {
+                 double x, cosinus, rad;
+                 cout << endl;
+                 cout << "WYBRALES COSINUS\n";
+                 cout << "PODAJ KAT W STOPNIACH: ";
+                 cin >> x;
+                 rad = (x * 3.14) / 180;
+                 cosinus = cos(rad);
+                 cout << "COSINUS Z TWOJEJ LICZBY TO: " << cosinus;
+             }
+             break;
+
+             // TANGENS
+             case '11':
+             {
+                 double x, tangens, rad;
+                 cout << endl;
+                 cout << "WYBRALES TANGENS\n";
+                 cout << "PODAJ KAT W STOPNIACH: ";
+                 cin >> x;
+                 rad = (x * 3.14) / 180;
+                 tangens = tan(rad);
+                 cout << "TANGENS Z TWOJEJ LICZBY TO: " << tangens;
+             }
+             break;
+
+             // COTANGENS
+             case '12':
+             {
+                 double x, cotangens, rad;
+                 cout << endl;
+                 cout << "WYBRALES COTANGENS\n";
+                 cout << "PODAJ KAT W STOPNIACH: ";
+                 cin >> x;
+                 rad = (x * 3.14) / 180;
+                 cotangens = 1/tan(rad);
+                 cout << "COTANGENS Z TWOJEJ LICZBY TO: " << cotangens;
+             }
+             break;
+        }
          }
                  
 
