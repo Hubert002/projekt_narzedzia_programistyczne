@@ -6,3 +6,4 @@ TWÓRCY
 
 Hubert Szydłowski -> rspository owner
 Bartosz Łoboda -> BartekLB
+Kamil Wiśniewski -> Polewacyhere
