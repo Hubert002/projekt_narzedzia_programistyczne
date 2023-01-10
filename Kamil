@@ -37,4 +37,16 @@
                  cout << "TANGENS Z TWOJEJ LICZBY TO: " << tangens;
              }
              break;
-
+// COTANGENS
+             case '12':
+             {
+                 double x, cotangens, rad;
+                 cout << endl;
+                 cout << "WYBRALES COTANGENS\n";
+                 cout << "PODAJ KAT W STOPNIACH: ";
+                 cin >> x;
+                 rad = (x * 3.14) / 180;
+                 cotangens = 1/tan(rad);
+                 cout << "COTANGENS Z TWOJEJ LICZBY TO: " << cotangens;
+             }
+             break;
